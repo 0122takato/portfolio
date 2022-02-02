@@ -33,7 +33,7 @@ a{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #999;
+    background: #41b883;
     /*丸のスタート位置と形状*/
 	transform: scale(0);/*scaleをはじめは0に*/
     top:calc(50% - 50px);/*50%から円の半径を引いた値*/
@@ -58,7 +58,7 @@ a{
 }
 
 #g-nav.panelactive #g-nav-list{
-     display: block; /*クラスが付与されたら出現*/
+    display: block; /*クラスが付与されたら出現*/
 }
 
 /*ナビゲーション*/
@@ -79,19 +79,19 @@ a{
 
 /* 背景が出現後にナビゲーション li を表示※レイアウトによって調整してください。不必要なら削除*/
 #g-nav.panelactive ul li{
-animation-name:gnaviAnime;
-animation-duration:1s;
-animation-delay:.2s;/*0.2 秒遅らせて出現*/
-animation-fill-mode:forwards;
-opacity:0;
+    animation-name:gnaviAnime;
+    animation-duration:1s;
+    animation-delay:.2s;/*0.2 秒遅らせて出現*/
+    animation-fill-mode:forwards;
+    opacity:0;
 }
 @keyframes gnaviAnime{
-0% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /*リストのレイアウト設定*/
@@ -130,9 +130,9 @@ opacity: 1;
     left: 14px;
     height: 3px;
     border-radius: 2px;
-	background-color: #666;
-  	width: 45%;
-  }
+	background-color: #fff;
+    width: 45%;
+}
 
 .openbtn span:nth-of-type(1) {
 	top:15px;	
@@ -221,7 +221,7 @@ opacity: 1;
     /*矢印の形状*/
     width: 1px;
     height: 20px;
-    background: #eee;
+    background: #fff;
     transform: skewX(-31deg);
 }
 
@@ -234,7 +234,7 @@ opacity: 1;
     /*矢印の形状*/
     width:1px;
     height: 50px;
-    background:#eee;
+    background:#fff;
 }
 
 #main-area p{

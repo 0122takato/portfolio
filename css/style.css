@@ -243,3 +243,13 @@ a{
     text-align: center;
     /* padding:100% 0; */
 }
+
+.pro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proImg {
+    width: 35%;
+}

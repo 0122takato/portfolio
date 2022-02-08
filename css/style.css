@@ -256,6 +256,10 @@ a{
 }
 
 #profile {
+    height: 100vh;
+}
+
+#profileTitle {
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;

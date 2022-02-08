@@ -252,5 +252,9 @@ a{
 }
 
 .proImg {
-    width: 35%;
+    width: 25%;
+}
+
+#profile {
+    text-align: center;
 }

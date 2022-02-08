@@ -4,7 +4,9 @@
 }
 
 body{
-    background:#41b883;
+    /* background:#41b883; */
+    background-color: #1d2b34;
+    color: white;
     word-wrap : break-word;
 }
 
@@ -33,7 +35,7 @@ a{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #41b883;
+    /* background: #41b883; */
     /*丸のスタート位置と形状*/
 	transform: scale(0);/*scaleをはじめは0に*/
     top:calc(50% - 50px);/*50%から円の半径を引いた値*/

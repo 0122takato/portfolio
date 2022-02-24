@@ -254,6 +254,10 @@ a{
     padding-bottom: 10vh;
 }
 
+.imgBox {
+    display: flex;
+}
+
 .img {
     width: 200px;
 }

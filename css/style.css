@@ -357,3 +357,6 @@ input {
     justify-content: center;
 }
 
+textarea {
+    background-color: #fff;
+}

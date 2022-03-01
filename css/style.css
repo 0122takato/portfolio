@@ -349,9 +349,11 @@ a{
 
 input {
     background-color: #fff;
+    margin-bottom: 20px;
 }
 
 .contactBox {
     display: flex;
     justify-content: center;
 }
+

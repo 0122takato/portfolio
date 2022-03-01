@@ -288,5 +288,9 @@ a{
 
 .proList {
     list-style-type: none;
-    width: 30%;
+    width: 45%;
+}
+
+.big {
+    font-size: 26px;
 }

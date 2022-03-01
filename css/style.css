@@ -250,7 +250,8 @@ a{
 }
 
 .proImg {
-    width: 300px;
+    width: 320px;
+    margin-left: 280px;
 }
 
 #profile {
@@ -287,4 +288,5 @@ a{
 
 .proList {
     list-style-type: none;
+    width: 30%;
 }

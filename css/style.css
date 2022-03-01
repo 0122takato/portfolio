@@ -325,5 +325,9 @@ a{
 
 .skillBox {
     height: 400px;
+}
+
+.skillBoxDetail {
     display: flex;
+    width: 100%;
 }

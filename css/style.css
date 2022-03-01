@@ -346,3 +346,7 @@ a{
     padding: 40px 0;
     padding-left: 40px;
 }
+
+input {
+    background-color: #fff;
+}

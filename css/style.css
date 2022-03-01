@@ -350,3 +350,8 @@ a{
 input {
     background-color: #fff;
 }
+
+.contactBox {
+    display: flex;
+    justify-content: center;
+}

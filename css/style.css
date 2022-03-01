@@ -266,7 +266,8 @@ a{
 
 .imgBox {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-left: 40px;
 }
 
 .img {

@@ -294,3 +294,7 @@ a{
 .big {
     font-size: 26px;
 }
+
+.open {
+    padding-top: 10px;
+}

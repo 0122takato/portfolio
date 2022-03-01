@@ -191,7 +191,7 @@ a{
     left:-20px;
     bottom:10px; */
     /*テキストの形状*/
-    color: #eee;
+    color: #000;
     font-size: 0.7rem;
     letter-spacing: 0.05em;
     /*縦書き設定*/
@@ -210,7 +210,7 @@ a{
     /*矢印の形状*/
     width: 1px;
     height: 20px;
-    background: #fff;
+    background: #000;
     transform: skewX(-31deg);
 }
 
@@ -223,7 +223,7 @@ a{
     /*矢印の形状*/
     width:1px;
     height: 50px;
-    background:#fff;
+    background:#000;
 }
 
 #main-area p{

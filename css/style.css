@@ -25,6 +25,7 @@ a{
 	top: 0;
 	width:100%;
     height: 100vh;
+    background-color: #93FFAB;
 }
 
 /*丸の拡大*/
@@ -35,6 +36,7 @@ a{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    background: #000;
     /*丸のスタート位置と形状*/
 	transform: scale(0);/*scaleをはじめは0に*/
     top:calc(50% - 50px);/*50%から円の半径を引いた値*/
@@ -76,25 +78,23 @@ a{
 /*背景が出現後にナビゲーションを表示*/
 #g-nav.panelactive ul {
     opacity:1;
-    background-color: #93FFAB;
-    width: 100%;
 }
 
 /* 背景が出現後にナビゲーション li を表示※レイアウトによって調整してください。不必要なら削除*/
 #g-nav.panelactive ul li{
-    animation-name:gnaviAnime;
-    animation-duration:1s;
-    animation-delay:.2s;/*0.2 秒遅らせて出現*/
-    animation-fill-mode:forwards;
-    opacity:0;
+animation-name:gnaviAnime;
+animation-duration:1s;
+animation-delay:.2s;/*0.2 秒遅らせて出現*/
+animation-fill-mode:forwards;
+opacity:0;
 }
 @keyframes gnaviAnime{
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
 }
 
 /*リストのレイアウト設定*/
@@ -104,7 +104,7 @@ a{
 }
 
 #g-nav li a{
-	color: #333;
+	color: #000;
 	text-decoration: none;
 	padding:10px;
 	display: block;

@@ -282,7 +282,7 @@ a{
 
 .proIcon {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .gitImg {
@@ -298,7 +298,7 @@ a{
 
 .proList {
     list-style-type: none;
-    width: 45%;
+    width: 60%;
 }
 
 .big {

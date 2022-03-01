@@ -312,5 +312,13 @@ a{
 .title {
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+}
+
+.detailList {
+    text-align: center;
+}
+
+.detailList li {
+    padding-top: 15px;
 }

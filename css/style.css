@@ -322,3 +322,7 @@ a{
 .detailList li {
     padding-top: 15px;
 }
+
+.skillBox {
+    height: 400px;
+}

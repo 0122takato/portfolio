@@ -276,3 +276,7 @@ a{
     white-space: nowrap;
     padding-left: 20%;
 }
+
+.proList {
+    list-style-type: none;
+}

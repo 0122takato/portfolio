@@ -325,10 +325,20 @@ a{
 
 .skillBox {
     height: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .skillBoxDetail {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.skillDetail, .imgBox {
+    width: 50%;
+}
+
+.skillDetail {
+    padding: 40px 0;
 }

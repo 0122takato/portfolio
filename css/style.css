@@ -261,3 +261,17 @@ a{
 .img {
     width: 200px;
 }
+
+.top {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.topName {
+    font-size: 50px;
+    white-space: nowrap;
+    padding-left: 20%;
+}
